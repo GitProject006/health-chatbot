@@ -2,7 +2,7 @@ import json
 import random
 from symptom_model import predict_disease
 
-# Load disease data
+
 with open("diseases.json") as f:
     diseases = json.load(f)
 
@@ -10,9 +10,7 @@ def get_response(user_input):
 
     user_input = user_input.lower()
 
-    # -----------------------
-    # Friendly conversation
-    # -----------------------
+   
 
     greetings = ["hi", "hello", "hey", "hii", "good morning", "good evening"]
 
@@ -36,9 +34,7 @@ def get_response(user_input):
     if "bye" in user_input:
         return "Take care! 👋 Stay healthy!"
 
-    # -----------------------
-    # Medicine Suggestions
-    # -----------------------
+   
 
     if "antacid" in user_input or "acidity" in user_input or "gas" in user_input or "heartburn" in user_input:
 
@@ -168,9 +164,7 @@ Common medicines for nausea and vomiting:
 Drink clear fluids and eat light food.
 """
 
-    # -----------------------
-    # Disease information
-    # -----------------------
+    
 
     for disease in diseases:
 
@@ -200,10 +194,6 @@ Drink clear fluids and eat light food.
 {d['treatment']}
 """
 
-    # -----------------------
-    # Symptom prediction
-    # -----------------------
-
     predictions = predict_disease(user_input)
 
     if predictions:
@@ -218,8 +208,6 @@ Drink clear fluids and eat light food.
 
         return response
 
-    # -----------------------
-    # Default response
-    # -----------------------
+ 
 
     return "I'm not sure I understood that 🤔 Try asking about symptoms, diseases, or medicines."
