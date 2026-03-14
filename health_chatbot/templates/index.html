@@ -1,0 +1,355 @@
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Public Health Chatbot</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+margin:0;
+height:100vh;
+
+/* NICE DISEASE / MEDICAL BACKGROUND */
+
+background:url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144") no-repeat center center fixed;
+background-size:cover;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+
+/* DARK OVERLAY */
+
+body::before{
+
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.55);
+z-index:-1;
+
+}
+
+/* HEADER */
+
+.header{
+
+color:white;
+font-size:30px;
+margin-top:20px;
+font-weight:bold;
+text-shadow:2px 2px 10px black;
+
+}
+
+/* CHAT CONTAINER */
+
+.chat-container{
+
+width:520px;
+height:620px;
+
+margin-top:20px;
+
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(12px);
+
+border-radius:20px;
+
+display:flex;
+flex-direction:column;
+
+box-shadow:0 10px 40px rgba(0,0,0,0.4);
+
+}
+
+/* CHAT AREA */
+
+.chatbox{
+
+flex:1;
+padding:15px;
+overflow-y:auto;
+
+}
+
+/* MESSAGE STYLE */
+
+.message{
+
+margin:12px 0;
+padding:12px;
+border-radius:18px;
+max-width:75%;
+line-height:1.5;
+
+}
+
+/* USER MESSAGE */
+
+.user{
+
+background:#00c851;
+color:white;
+margin-left:auto;
+
+}
+
+/* BOT MESSAGE */
+
+.bot{
+
+background:white;
+color:black;
+
+}
+
+/* INPUT AREA */
+
+.input-area{
+
+display:flex;
+background:white;
+border-radius:0 0 20px 20px;
+
+}
+
+input{
+
+flex:1;
+padding:14px;
+border:none;
+outline:none;
+font-size:15px;
+
+}
+
+button{
+
+padding:14px 22px;
+
+background:#007bff;
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+background:#0056b3;
+
+}
+
+/* TYPING DOTS */
+
+.typing span{
+
+height:8px;
+width:8px;
+background:#555;
+border-radius:50%;
+display:inline-block;
+margin:2px;
+
+animation:blink 1.4s infinite;
+
+}
+
+.typing span:nth-child(2){
+animation-delay:0.2s
+}
+
+.typing span:nth-child(3){
+animation-delay:0.4s
+}
+
+@keyframes blink{
+
+0%{opacity:0.2}
+50%{opacity:1}
+100%{opacity:0.2}
+
+}
+
+/* SUGGESTIONS */
+
+#suggestions{
+
+background:white;
+max-height:120px;
+overflow-y:auto;
+
+}
+
+.suggestion-item{
+
+padding:8px;
+cursor:pointer;
+
+}
+
+.suggestion-item:hover{
+
+background:#eee;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+🩺 AI Public Health Chatbot 🤖
+
+</div>
+
+<div class="chat-container">
+
+<div id="chatbox" class="chatbox"></div>
+
+<div id="suggestions"></div>
+
+<div class="input-area">
+
+<input id="text"
+placeholder="Type symptoms or disease (example: fever, cough) 😊"
+onkeypress="if(event.key==='Enter') send()">
+
+<button onclick="send()">Send</button>
+
+</div>
+
+</div>
+
+<script>
+
+let chat=document.getElementById("chatbox")
+
+function addMessage(text,cls){
+
+chat.innerHTML+=`<div class="message ${cls}">${text}</div>`
+chat.scrollTop=chat.scrollHeight
+
+}
+
+function send(){
+
+let input=document.getElementById("text").value
+
+if(input.trim()=="") return
+
+addMessage(input,"user")
+
+document.getElementById("text").value=""
+document.getElementById("suggestions").innerHTML=""
+
+chat.innerHTML+=`
+<div class="message bot" id="typing">
+<div class="typing">
+<span></span><span></span><span></span>
+</div>
+</div>
+`
+
+fetch("/get?msg="+input)
+.then(res=>res.text())
+.then(data=>{
+
+setTimeout(()=>{
+
+document.getElementById("typing").remove()
+
+addMessage(data,"bot")
+
+},1000)
+
+})
+
+}
+
+/* GREETING */
+
+window.onload=function(){
+
+addMessage("Hello 👋 I'm your AI health assistant 🤖<br>You can ask me about diseases or symptoms 😊","bot")
+
+}
+
+/* SYMPTOM SUGGESTIONS */
+
+let symptoms=[
+
+"fever","headache","cough","sore throat","fatigue",
+"vomiting","nausea","diarrhea","rash","joint pain",
+"muscle pain","chills","shortness of breath",
+"chest pain","dizziness","weight loss",
+"blurred vision","frequent urination",
+"runny nose","body ache","loss of taste",
+"loss of smell","itching","skin redness"
+
+]
+
+let input=document.getElementById("text")
+let suggestionBox=document.getElementById("suggestions")
+
+input.addEventListener("input",function(){
+
+let value=input.value.toLowerCase()
+
+suggestionBox.innerHTML=""
+
+if(value.length<2) return
+
+symptoms.forEach(function(symptom){
+
+if(symptom.includes(value)){
+
+let item=document.createElement("div")
+
+item.className="suggestion-item"
+
+item.innerHTML="💡 "+symptom
+
+item.onclick=function(){
+
+input.value=symptom
+suggestionBox.innerHTML=""
+
+}
+
+suggestionBox.appendChild(item)
+
+}
+
+})
+
+})
+
+</script>
+
+</body>
+
+</html>
+```

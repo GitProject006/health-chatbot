@@ -1,0 +1,451 @@
+{
+"dengue":{
+"description":"Dengue is a mosquito-borne viral infection that is common in tropical and subtropical regions. It spreads mainly through the bite of infected Aedes mosquitoes. Dengue can cause severe flu-like symptoms and sometimes leads to serious complications.",
+"symptoms":["high fever","severe headache","joint pain","muscle pain","rash","nausea"],
+"causes":"Dengue virus transmitted through mosquito bites.",
+"prevention":["avoid mosquito bites","use mosquito nets","remove stagnant water","use insect repellents"],
+"treatment":"Treatment mainly includes rest, drinking fluids, and monitoring symptoms. Severe cases require hospital care.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/3b/Dengue_fever_symptoms.jpg"
+},
+
+"malaria":{
+"description":"Malaria is a serious disease caused by parasites transmitted through infected mosquito bites. It remains a major public health problem in many countries.",
+"symptoms":["fever","chills","sweating","headache","fatigue"],
+"causes":"Plasmodium parasites transmitted through mosquito bites.",
+"prevention":["sleep under mosquito nets","use insect repellents","remove standing water"],
+"treatment":"Doctors treat malaria with antimalarial medicines. Early treatment prevents complications.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/5/58/Malaria_parasite.jpg"
+},
+
+"diabetes":{
+"description":"Diabetes is a chronic disease that occurs when the body cannot properly regulate blood sugar levels due to problems with insulin.",
+"symptoms":["frequent urination","excessive thirst","fatigue","blurred vision"],
+"causes":"Problems with insulin production or insulin resistance.",
+"prevention":["healthy diet","regular exercise","maintain healthy weight"],
+"treatment":"Treatment includes blood sugar monitoring, medication, insulin therapy, and lifestyle changes.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/2/2e/Insulin_pen.jpg"
+},
+
+"hypertension":{
+"description":"Hypertension or high blood pressure occurs when the force of blood against artery walls remains too high over time.",
+"symptoms":["headache","shortness of breath","dizziness"],
+"causes":"unhealthy diet, stress, lack of exercise, genetics",
+"prevention":["reduce salt intake","exercise regularly","maintain healthy weight"],
+"treatment":"Doctors prescribe medications and recommend lifestyle changes.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Blood_pressure_monitor.jpg"
+},
+
+"tuberculosis":{
+"description":"Tuberculosis is a bacterial infection mainly affecting the lungs and spreads through air when infected people cough or sneeze.",
+"symptoms":["persistent cough","chest pain","weight loss","fever","night sweats"],
+"causes":"Mycobacterium tuberculosis bacteria.",
+"prevention":["BCG vaccination","early diagnosis","good ventilation"],
+"treatment":"Long-term antibiotic therapy under medical supervision.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/8/8f/Tuberculosis_X-ray.jpg"
+},
+
+"typhoid":{
+"description":"Typhoid fever is a bacterial infection spread through contaminated food and water.",
+"symptoms":["high fever","weakness","stomach pain","loss of appetite"],
+"causes":"Salmonella typhi bacteria.",
+"prevention":["drink safe water","wash hands","eat properly cooked food"],
+"treatment":"Antibiotics prescribed by doctors.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/0/0e/Typhoid_fever.jpg"
+},
+
+"cholera":{
+"description":"Cholera is an infectious disease causing severe diarrhea and dehydration.",
+"symptoms":["watery diarrhea","vomiting","dehydration"],
+"causes":"Vibrio cholerae bacteria from contaminated water.",
+"prevention":["drink clean water","improve sanitation","wash hands"],
+"treatment":"Oral rehydration solution and antibiotics.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6f/Cholera_bacteria_SEM.jpg"
+},
+
+"influenza":{
+"description":"Influenza is a contagious respiratory illness caused by influenza viruses.",
+"symptoms":["fever","cough","body ache","sore throat"],
+"causes":"Influenza virus infection.",
+"prevention":["flu vaccination","wash hands","avoid close contact with sick people"],
+"treatment":"Rest, hydration, antiviral medicines if needed.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/1/19/Influenza_virus.jpg"
+},
+
+"covid-19":{
+"description":"COVID-19 is a respiratory disease caused by the SARS-CoV-2 virus that spread worldwide during the pandemic.",
+"symptoms":["fever","cough","loss of taste","breathing difficulty"],
+"causes":"Coronavirus infection.",
+"prevention":["vaccination","wear masks","wash hands"],
+"treatment":"Supportive care and medical supervision.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/3d/SARS-CoV-2_without_background.png"
+},
+
+"pneumonia":{
+"description":"Pneumonia is an infection that inflames air sacs in the lungs.",
+"symptoms":["cough","fever","chest pain","difficulty breathing"],
+"causes":"bacteria, viruses, or fungi.",
+"prevention":["vaccination","good hygiene","avoid smoking"],
+"treatment":"Antibiotics or antiviral medication depending on cause.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/e/e6/Pneumonia_x-ray.jpg"
+},
+
+"asthma":{
+"description":"Asthma is a chronic condition affecting airways causing breathing difficulty.",
+"symptoms":["shortness of breath","wheezing","chest tightness"],
+"causes":"genetic and environmental factors.",
+"prevention":["avoid triggers","use inhalers"],
+"treatment":"Inhalers and medication.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6f/Asthma_inhaler.jpg"
+},
+
+"bronchitis":{
+"description":"Bronchitis is inflammation of bronchial tubes carrying air to lungs.",
+"symptoms":["persistent cough","fatigue","mucus production"],
+"causes":"viral infection or smoking.",
+"prevention":["avoid smoking","wash hands"],
+"treatment":"Rest, fluids, and medication.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/8/8c/Bronchitis.jpg"
+},
+
+"hepatitis a":{
+"description":"Hepatitis A is a viral liver infection spread through contaminated food and water.",
+"symptoms":["fatigue","nausea","abdominal pain","yellow skin"],
+"causes":"Hepatitis A virus.",
+"prevention":["vaccination","clean food and water"],
+"treatment":"Rest and supportive care.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/1/16/Hepatitis_A_virus.jpg"
+},
+
+"hepatitis b":{
+"description":"Hepatitis B is a serious liver infection spread through blood and body fluids.",
+"symptoms":["fatigue","abdominal pain","dark urine"],
+"causes":"Hepatitis B virus.",
+"prevention":["vaccination","avoid sharing needles"],
+"treatment":"Antiviral medications and monitoring.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Hepatitis_B_virus.jpg"
+},
+
+"hepatitis c":{
+"description":"Hepatitis C is a viral infection causing liver inflammation.",
+"symptoms":["fatigue","loss of appetite","jaundice"],
+"causes":"Hepatitis C virus through infected blood.",
+"prevention":["avoid sharing needles","safe medical practices"],
+"treatment":"Antiviral drugs.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/37/Hepatitis_C_virus.jpg"
+},
+
+"hiv/aids":{
+"description":"HIV attacks the immune system and can lead to AIDS if untreated.",
+"symptoms":["fever","fatigue","weight loss","frequent infections"],
+"causes":"Human immunodeficiency virus.",
+"prevention":["safe sex","avoid sharing needles","testing"],
+"treatment":"Antiretroviral therapy.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/2/2f/HIV_virus.jpg"
+},
+
+"measles":{
+"description":"Measles is a highly contagious viral disease mainly affecting children.",
+"symptoms":["fever","cough","runny nose","skin rash"],
+"causes":"Measles virus.",
+"prevention":["MMR vaccination"],
+"treatment":"Supportive care.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/0/0f/Measles.jpg"
+},
+
+"mumps":{
+"description":"Mumps is a viral infection affecting salivary glands.",
+"symptoms":["swollen cheeks","fever","headache"],
+"causes":"Mumps virus.",
+"prevention":["MMR vaccination"],
+"treatment":"Rest and pain relief.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Mumps_virus.jpg"
+},
+
+"chickenpox":{
+"description":"Chickenpox is a contagious viral infection causing itchy rash.",
+"symptoms":["itchy rash","fever","fatigue"],
+"causes":"Varicella-zoster virus.",
+"prevention":["vaccination"],
+"treatment":"Antiviral medicine and soothing lotions.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Chickenpox.jpg"
+},
+
+"polio":{
+"description":"Polio is a viral disease that can cause paralysis.",
+"symptoms":["fever","sore throat","muscle weakness"],
+"causes":"Poliovirus.",
+"prevention":["polio vaccination"],
+"treatment":"Supportive care.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/7/7b/Poliovirus.jpg"
+},
+
+"rabies":{
+"description":"Rabies is a deadly viral disease transmitted through animal bites.",
+"symptoms":["fever","confusion","difficulty swallowing"],
+"causes":"Rabies virus from infected animals.",
+"prevention":["vaccination","avoid stray animals"],
+"treatment":"Immediate post-exposure vaccination.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/3f/Rabies_virus.jpg"
+},
+
+"tetanus":{
+"description":"Tetanus is a bacterial infection affecting the nervous system.",
+"symptoms":["muscle stiffness","jaw cramping"],
+"causes":"Clostridium tetani bacteria entering wounds.",
+"prevention":["tetanus vaccination"],
+"treatment":"Antitoxin and supportive care.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Tetanus_bacteria.jpg"
+},
+
+"whooping cough":{
+"description":"Whooping cough is a contagious respiratory infection.",
+"symptoms":["severe coughing","runny nose","fever"],
+"causes":"Bordetella pertussis bacteria.",
+"prevention":["vaccination"],
+"treatment":"Antibiotics.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/0/07/Pertussis_bacteria.jpg"
+},
+
+"common cold":{
+"description":"Common cold is a mild viral respiratory infection.",
+"symptoms":["runny nose","sneezing","sore throat"],
+"causes":"Rhinovirus infection.",
+"prevention":["wash hands","avoid close contact with sick people"],
+"treatment":"Rest and fluids.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/4/45/Common_cold.jpg"
+},
+
+"migraine":{
+"description":"Migraine is a neurological condition causing severe headaches.",
+"symptoms":["severe headache","nausea","sensitivity to light"],
+"causes":"genetic and neurological factors.",
+"prevention":["manage stress","sleep well"],
+"treatment":"Pain relief medication.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/e/e6/Migraine.jpg"
+},
+
+"anemia":{
+"description":"Anemia occurs when the body lacks enough healthy red blood cells.",
+"symptoms":["fatigue","weakness","pale skin"],
+"causes":"iron deficiency or blood loss.",
+"prevention":["iron-rich diet"],
+"treatment":"Iron supplements.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Red_blood_cells.jpg"
+},
+
+"arthritis":{
+"description":"Arthritis is inflammation of joints causing pain and stiffness.",
+"symptoms":["joint pain","swelling","reduced mobility"],
+"causes":"aging, autoimmune conditions.",
+"prevention":["maintain healthy weight"],
+"treatment":"Pain relief medication and therapy.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Arthritis.jpg"
+},
+
+"osteoporosis":{
+"description":"Osteoporosis weakens bones making them fragile.",
+"symptoms":["bone fractures","back pain"],
+"causes":"loss of bone density.",
+"prevention":["calcium-rich diet","exercise"],
+"treatment":"Medication and supplements.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/1/11/Osteoporosis.jpg"
+},
+
+"gastritis":{
+"description":"Gastritis is inflammation of stomach lining.",
+"symptoms":["stomach pain","nausea","bloating"],
+"causes":"infection or excessive alcohol use.",
+"prevention":["avoid spicy food","reduce alcohol"],
+"treatment":"Antacid medications.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/2/2f/Stomach.jpg"
+},
+
+"peptic ulcer":{
+"description":"Peptic ulcers are sores in the stomach lining.",
+"symptoms":["burning stomach pain","bloating"],
+"causes":"H. pylori infection or NSAID drugs.",
+"prevention":["avoid smoking","limit NSAIDs"],
+"treatment":"Antibiotics and acid-reducing medicine.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/3a/Peptic_ulcer.jpg"
+},
+
+"food poisoning":{
+"description":"Food poisoning results from contaminated food.",
+"symptoms":["vomiting","diarrhea","stomach cramps"],
+"causes":"bacteria or toxins in food.",
+"prevention":["cook food properly","wash hands"],
+"treatment":"hydration and rest.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/2/2a/Food_poisoning.jpg"
+},
+
+"kidney stones":{
+"description":"Kidney stones are hard deposits forming in kidneys.",
+"symptoms":["severe pain","blood in urine"],
+"causes":"high mineral levels in urine.",
+"prevention":["drink plenty of water"],
+"treatment":"medication or surgery.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/4/4f/Kidney_stone.jpg"
+},
+
+"urinary tract infection":{
+"description":"UTI is infection of urinary system.",
+"symptoms":["burning urination","frequent urge"],
+"causes":"bacterial infection.",
+"prevention":["drink water","maintain hygiene"],
+"treatment":"antibiotics.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/1/1c/Urinary_system.jpg"
+},
+
+"appendicitis":{
+"description":"Appendicitis is inflammation of appendix.",
+"symptoms":["abdominal pain","nausea","fever"],
+"causes":"blocked appendix.",
+"prevention":"no known prevention.",
+"treatment":"surgical removal.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Appendix.jpg"
+},
+
+"conjunctivitis":{
+"description":"Conjunctivitis or pink eye is inflammation of eye membrane.",
+"symptoms":["red eye","itching","watery discharge"],
+"causes":"viral or bacterial infection.",
+"prevention":["avoid touching eyes"],
+"treatment":"eye drops.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6b/Conjunctivitis.jpg"
+},
+
+"skin allergy":{
+"description":"Skin allergy causes itching and redness.",
+"symptoms":["itching","rash","swelling"],
+"causes":"allergic reaction.",
+"prevention":["avoid allergens"],
+"treatment":"antihistamines.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Skin_allergy.jpg"
+},
+
+"psoriasis":{
+"description":"Psoriasis is autoimmune skin condition.",
+"symptoms":["red patches","scaly skin"],
+"causes":"immune system disorder.",
+"prevention":"avoid triggers.",
+"treatment":"topical creams and medication.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/e/e1/Psoriasis.jpg"
+},
+
+"eczema":{
+"description":"Eczema causes inflamed itchy skin.",
+"symptoms":["dry skin","itching","redness"],
+"causes":"genetic and environmental factors.",
+"prevention":["moisturize skin"],
+"treatment":"steroid creams.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/Eczema.jpg"
+},
+
+"obesity":{
+"description":"Obesity is excessive body fat increasing health risks.",
+"symptoms":["excess body weight","breathing difficulty"],
+"causes":"excess calorie intake.",
+"prevention":["balanced diet","exercise"],
+"treatment":"weight management programs.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/37/Obesity.jpg"
+},
+
+"depression":{
+"description":"Depression is a mental health disorder causing persistent sadness.",
+"symptoms":["sadness","loss of interest","fatigue"],
+"causes":"chemical imbalance and stress.",
+"prevention":["social support","stress management"],
+"treatment":"therapy and medication.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/4/4f/Depression.jpg"
+},
+
+"anxiety disorder":{
+"description":"Anxiety disorder involves excessive fear or worry.",
+"symptoms":["restlessness","rapid heartbeat"],
+"causes":"genetic and environmental factors.",
+"prevention":["stress management"],
+"treatment":"therapy and medication.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/2/2f/Anxiety.jpg"
+},
+
+"alzheimer’s disease":{
+"description":"Alzheimer’s disease is a progressive brain disorder affecting memory.",
+"symptoms":["memory loss","confusion"],
+"causes":"brain cell degeneration.",
+"prevention":"healthy lifestyle.",
+"treatment":"medication to manage symptoms.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/f/fd/Alzheimers_brain.jpg"
+},
+
+"parkinson’s disease":{
+"description":"Parkinson’s disease affects movement and coordination.",
+"symptoms":["tremor","slow movement"],
+"causes":"loss of dopamine-producing brain cells.",
+"prevention":"healthy lifestyle.",
+"treatment":"medications and therapy.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/4/48/Parkinsons.jpg"
+},
+
+"stroke":{
+"description":"Stroke occurs when blood supply to brain is interrupted.",
+"symptoms":["face drooping","speech difficulty","arm weakness"],
+"causes":"blocked or burst blood vessel.",
+"prevention":["control blood pressure"],
+"treatment":"emergency medical care.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Stroke.jpg"
+},
+
+"heart attack":{
+"description":"Heart attack occurs when blood flow to heart is blocked.",
+"symptoms":["chest pain","shortness of breath","nausea"],
+"causes":"coronary artery blockage.",
+"prevention":["healthy diet","exercise"],
+"treatment":"emergency hospital treatment.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Heart_attack.jpg"
+},
+
+"coronary artery disease":{
+"description":"Coronary artery disease involves narrowing of heart arteries.",
+"symptoms":["chest pain","fatigue"],
+"causes":"plaque buildup in arteries.",
+"prevention":["healthy lifestyle"],
+"treatment":"medications and surgery.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/3/3f/Coronary_artery_disease.jpg"
+},
+
+"thyroid disorder":{
+"description":"Thyroid disorders affect metabolism due to hormone imbalance.",
+"symptoms":["weight changes","fatigue"],
+"causes":"overactive or underactive thyroid.",
+"prevention":"regular health checkups.",
+"treatment":"hormone therapy.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Thyroid.jpg"
+},
+
+"dengue hemorrhagic fever":{
+"description":"Severe form of dengue causing bleeding and organ damage.",
+"symptoms":["severe bleeding","shock"],
+"causes":"dengue virus complications.",
+"prevention":["avoid mosquito bites"],
+"treatment":"hospital care required.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/4/4a/Dengue_hemorrhagic_fever.jpg"
+},
+
+"zika virus disease":{
+"description":"Zika is mosquito-borne viral disease.",
+"symptoms":["fever","rash","joint pain"],
+"causes":"Zika virus transmitted by mosquitoes.",
+"prevention":["mosquito protection"],
+"treatment":"rest and fluids.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/5/5b/Zika_virus.jpg"
+},
+
+"leptospirosis":{
+"description":"Leptospirosis is bacterial disease spread through contaminated water.",
+"symptoms":["fever","muscle pain","headache"],
+"causes":"Leptospira bacteria.",
+"prevention":["avoid contaminated water"],
+"treatment":"antibiotics.",
+"image":"https://upload.wikimedia.org/wikipedia/commons/7/7e/Leptospira.jpg"
+}
+}
