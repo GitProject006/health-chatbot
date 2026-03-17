@@ -1,9 +1,12 @@
 import json
 import random
+import os
 from symptom_model import predict_disease
 
+base_dir = os.path.dirname(__file__)
+file_path = os.path.join(base_dir, "diseases.json")
 
-with open("diseases.json") as f:
+with open(file_path) as f:
     diseases = json.load(f)
 
 def get_response(user_input):
